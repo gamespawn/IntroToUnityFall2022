@@ -8,5 +8,6 @@ public class HitGround : MonoBehaviour
     {
         GameManager gm = GameObject.FindObjectOfType<GameManager>(); 
         gm.BirdDies(); 
+        //gm.restartGame();
     }
 }

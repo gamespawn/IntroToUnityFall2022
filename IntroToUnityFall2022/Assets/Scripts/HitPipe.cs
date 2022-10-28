@@ -8,5 +8,6 @@ public class HitPipe : MonoBehaviour
     {
         GameManager gm = GameObject.FindObjectOfType<GameManager>(); 
         gm.BirdDies(); 
+        //gm.restartGame();
     }
 }
